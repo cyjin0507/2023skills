@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mobile.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./resources/fontawesome-free-6.2.0-web/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> -->
     <title>2023지방대회</title>
 </head>
 <body>
@@ -15,22 +16,22 @@
 
     <header>
         <div id="header" class="content between">
-            <a href="./index.html"><img src="./resources/logo.png" alt="" id="logo"></a>
+            <a href="./index.html"><img src="./resources/logo.png" alt="img" title="img" id="logo"></a>
             <div id="navi" class="center">
                 <nav>
                     <ul class="flex">
-                        <a href=""><li>캠핑장소개 <hr class="headerLine"></li></a>
-                        <a href=""><li>예약하기<hr class="headerLine"></li></a>
-                        <a href=""><li>마이페이지<hr class="headerLine"></li></a>
+                        <a href="./sub.html"><li>캠핑장소개 <hr class="headerLine"></li></a>
+                        <a href="#"><li>예약하기<hr class="headerLine"></li></a>
+                        <a href="#"><li>마이페이지<hr class="headerLine"></li></a>
                     </ul>
                 </nav>
                 <div id="util" class="flex">
-                    <a href=""><button>로그인</button></a>
+                    <a href="#"><button>로그인</button></a>
                     <div>
-                        <a href=""><button>운영관리</button></a>
+                        <a href="#"><button>운영관리</button></a>
                         <div id="tabMenu" class="flex">
-                            <a href=""><button>예약관리</button></a>
-                            <a href=""><button>주문관리</button></a>
+                            <a href="#"><button>예약관리</button></a>
+                            <a href="#"><button>주문관리</button></a>
                         </div>
                     </div>
                 </div>
@@ -38,12 +39,15 @@
         </div>
     </header>
 
+    <div id="header-def"></div>
+
     <!-- 헤더 -->
 
     <!-- 비주얼 -->
 
     <section id="visual">
         <div class="visual-txt content">
+            <div>비주얼이미지</div>
             <h2>Skills Camping <br> 올해 첫 개장!</h2>
             <div>Lorem ipsum doectetur adipisicing elit. Quidem at quam dicta voluptatem eligendi exercitationem</div>
             <div class="flex">
@@ -135,6 +139,16 @@
         </div>
     </section>
 
+    <!-- <div id="round1" class="round"></div>
+    <div id="round2" class="round"></div>
+    <div id="round3" class="round"></div>
+    <div id="round4" class="round"></div>
+    <div id="round5" class="round"></div> -->
+
+    <!-- <img src="./resources/image/make/b1.jpg" alt="" id="back1">
+    <img src="./resources/image/make/b2.jpg" alt="" id="back2"> -->
+
+
     <!-- 예약안내 -->
 
     <!-- 오시는길 -->
@@ -173,10 +187,11 @@
                 </div>
             </div>
             <div id="map-img">
-                <img src="./resources/image/지도/지도2png.png" alt="">
+                <img src="./resources/image/make/map.jpg" alt="img" title="img">
             </div>
         </div>
     </section>
+    <!-- <div class="bottomBar"></div> -->
 
     <!-- 오시는길 -->
 
@@ -202,7 +217,7 @@
                     <div>Copyright : Copyright(C) Skills Camping All Rights Reserved.</div>
                 </div>
                 <div id="footer-right">
-                    <img src="./resources/logo-w.png" alt="" id="footer-logo">
+                    <img src="./resources/logo-w.png" alt="img" title="img" id="footer-logo">
                     <div id="icons" class="flex">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-square-instagram"></i>
