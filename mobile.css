@@ -1,0 +1,630 @@
+@media screen and (max-width:480px) {
+    
+    /* 섹션 약 460px, 가운데 정렬 */
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .title > div:nth-child(1) {
+        width: 60px;
+        font-size: 11px;
+    }
+
+    .title > h2 {
+        font-size: 20px;
+    }
+
+    .title > div:nth-child(3) {
+        font-size: 11px;
+    }
+
+    /* 헤더 */
+    #header {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #logo {
+        margin-top: 20px;
+    }
+
+    #navi {
+        gap: 25px;
+    }
+
+    nav > ul {
+        gap: 20px;
+    }
+
+    nav > ul > li {
+        line-height: 3;
+        font-size: 13px;
+    }
+
+    #util > button {
+        font-size: 11px;
+        width: 60px;
+        height: 25px;
+    }
+
+    /* 헤더 끝 */
+
+
+    /* 비주얼 */
+
+    #visual {
+        height: 370px;
+    }
+
+    .visual-txt {
+        top: 70px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .visual-txt > h2 {
+        font-size: 30px;
+    }
+
+    .visual-txt > div:nth-child(2) {
+        font-size: 11px;
+        width: 300px;
+    }
+
+    .visual-txt > div:nth-child(3) > div {
+        font-size: 11px;
+        padding: 12px 21px;
+    }
+
+    /* 비주얼 끝 */
+
+    /* 새소식 */
+
+    #news-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .news-img {
+        height: 220px;
+    }
+
+    .news-txt > div:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .news-txt > div:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .bottom-bar {
+        margin-top: -400px;
+    }
+
+    .news-info:nth-child(1):hover .news-txt, .news-info:nth-child(3):hover .news-txt {
+        margin-top: -223px;
+        height: 220px;
+    }
+
+    .news-info:nth-child(2):hover .news-txt, .news-info:nth-child(4):hover .news-txt {
+        height: 220px;
+        margin-top: 50px;
+    }
+
+    /* 새소식 끝 */
+
+    /* 앨범 */
+
+    #album {
+        margin-top: 150px;
+    }
+
+    #album-grid {
+        flex-direction: column;
+    }
+
+    .main-album {
+        width: 100%;
+        height: 180px;
+    }
+
+    .main-album:hover .album-info {
+        width: 100%;
+        height: 180px;
+    }
+
+    .main-album:hover .album-info > div:nth-child(1) {
+        margin-top: 45px;
+    }
+
+    .album-info > div:nth-child(1) {
+        font-size: 13px;
+    }
+
+    .album-info > div:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .sub-album {
+        width: 100%;
+    }
+
+    .sub-album > div {
+        height: 150px;
+    }
+
+    /* 앨범 끝 */
+
+
+    /* 공지사항 */
+
+    #notice {
+        padding: 100px 0;
+    }
+
+    #notice > #notice-container {
+        width: 90%;
+    }
+
+    #notice-tabs {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    
+    #notice-tabs > label {
+        font-size: 11px;
+    }
+
+    #notice-main {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+
+    .notice-info {
+        width: 100%;
+        height: 200px;
+    }
+
+    .notice-area {
+        height: 200px;
+    }
+
+    .notice-hover {
+        height: 200px;
+    }
+
+    .notice-area > div:nth-child(1) {
+        font-size: 11px;
+    }
+
+    .notice-area > div:not(:first-child) {
+        width: 90%;
+        margin: auto;
+    }
+
+    .notice-area > div:nth-child(2) {
+        font-size: 13px;
+        margin-top: -15px;
+    }
+
+    .notice-area > div:nth-child(3) {
+        margin-top: 15px;
+        font-size: 11px;
+    }
+
+    .notice-area > div:nth-child(4) {
+        margin-top: 27px;
+        font-size: 11px;
+    }
+
+    .plus {
+        right: 20px;
+        top: -180px;
+    }
+
+    /* 공지사항 끝 */
+
+    /* 카드 */
+
+    #card-main {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .card-txt > div:nth-child(1) {
+        font-size: 13px;
+    }
+
+    .card-txt > div:nth-child(2) {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+    .card-txt > div:nth-child(3) {
+        line-height: 2;
+        font-size: 11px;
+    }
+
+    /* 카드 끝 */
+
+    /* 배너 */
+
+    #banner {
+        padding: 0;
+    }
+
+    #banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 150px;
+        border-radius: 0;
+    }
+
+    .banner-txt {
+        width: 85%;
+        margin: auto;
+    }
+
+    .banner-txt > div:nth-child(1) {
+        margin-top: 30px;
+    }
+
+    .banner-type {
+        font-size: 11px;
+    }
+
+    .banner-txt > div:nth-child(2) {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    /* 배너 끝 */
+
+    /* 소개 */
+
+    #intro-main {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .intro-info {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .intro-img:nth-child(1) {
+        height: 200px;
+    }
+    .intro-img {
+        border-radius: 0;
+    }
+
+    .intro-txt{
+        height: 200px;
+    }
+
+    .intro-info:nth-child(1) {
+        margin-top: 40px;
+        height: 200px;
+    }
+
+    .intro-info:nth-child(2) {
+        margin-top: 0px;
+        height: 260px;
+    }
+    .intro-info:nth-child(2) > img {
+        height: 100%;
+    }
+
+    .intro-txt > div:nth-child(1) {
+        margin-top: 60px;
+    }
+
+    .intro-info:nth-child(3) {
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 262px;
+        height: 260px;
+        border-style: none;
+        border-top: 3px solid #2D68FF;
+    }
+
+    .intro-info:nth-child(3) > i {
+        margin-top: 20px;
+    }
+
+    .intro-info:nth-child(3) > div:nth-child(2) {
+        font-size: 13px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .intro-info:nth-child(3) > div:nth-child(3),.intro-info:nth-child(3) > div:nth-child(4) {
+        font-size: 13px;
+        color: white;
+    }
+
+    .intro-info:hover {
+        transform: translateX(0);
+    }
+
+    /* 소개 끝 */
+
+    /* 순위 */
+
+    #rank-main {
+        flex-direction: column;
+    }
+
+    .rank-top {
+        width: 100%;
+        height: 290px;
+    }
+
+    .rank-top > .rank-info > div:nth-child(1) {
+        margin-top: -10px;
+    }
+
+    .rank-top > .rank-img {
+        height: 160px;
+        width: 100%;
+    }
+
+    .rank-other {
+        width: 100%;
+    }
+
+    .rank-info > div:nth-child(1) {
+        font-size: 15px;
+    }
+
+    .rank-info > div:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .rank-info > div {
+        font-size: 13px;
+    }
+
+    .rank-card {
+        height: 185px;
+    }
+
+    .rank-img {
+        height: 80px;
+        width: 100%;
+    }
+
+    .rank-other .rank-info > div:nth-child(1) {
+        font-size: 13px;
+    }
+
+    .rank-other .rank-info > div:not(:first-child) {
+        font-size: 11px;
+    }
+
+    .rank-card:hover .rank-show {
+        transform: rotate(0deg);
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 90px;
+    }
+    
+    .rank-top:hover .rank-show {
+        transform: rotate(0deg);
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 170px;
+    }
+
+    /* 순위 끝 */
+
+    /* 소개2 */
+
+    #intro2 {
+        flex-direction: column-reverse;
+    }
+
+    .intro2-txt {
+        width: 100%;
+    }
+
+    .intro2-txt > div:nth-child(2) {
+        margin-top: 20px;
+        font-size: 11px;
+    }
+
+    .intro2-txt > div:nth-child(3) {
+        margin-top: 20px;
+    }
+
+    .intro2-img {
+        width: 96%;
+        margin-top: 30px;
+    }
+
+    .intro2-img > img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* 소개2 끝 */
+
+    /* 후원사 */
+
+    #sponser-main {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .sponser-img {
+        width: 100%;
+        height: 30px;
+    }
+
+    /* 후원사 끝 */
+
+    /* 탭뉴스 */
+
+    #news-area {
+        flex-direction: column;
+    }
+
+    #news-area {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 25px;
+    }
+
+    #tabs-area {
+        width: 100%;
+        height: 80px;
+        border-radius: 10px 10px 20px 20px;
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('https://via.placeholder.com/320x360');
+    }
+
+    #tabs-area > div {
+        width: 100%;
+        flex-direction: row;
+        margin-left: 0;
+        gap: 0;
+        margin-top: 30px;
+    }
+
+    #tabs-area > div > label:nth-child(1) {
+        margin-top: 33px;
+    }
+
+    #tabs-area > div > label {
+        padding: 8px 6px;
+        font-size: 13px;
+        height: 20px;
+    }
+
+    #tab-news-info {
+        width: 90%;
+        margin: auto;
+    }
+
+    #tab-news-up > div:nth-child(1) {
+        font-size: 11px;
+        height: 45px;
+    }
+
+    #tab-news-up > div:nth-child(1) > span {
+        font-size: 16px;
+    }
+
+    #tab-news-up > div:nth-child(2) {
+        padding-top: 15px;
+    }
+
+    #tab-news-other {
+        gap: 10px;
+    }
+
+    #tab-news-other > div > div:nth-child(2) {
+        font-size: 13px;
+    }
+
+    .news-line {
+        margin-top: 17px;
+    }
+
+    #tab-news-other > .between:hover .news-line {
+        width: 350px;
+        opacity: 1;
+    }
+
+    #news-img {
+        display: none;
+    }
+
+    .notice-plus {
+        margin-left: 80%;
+        margin-top: 100px;
+    }
+
+    /* 탭뉴스 끝 */
+
+    /* 이벤트 */
+
+    #event {
+        flex-direction: column;
+    }
+
+    #event-title {
+        width: 100%;
+    }
+
+    #event-main {
+        width: 100%;
+        margin-left: -20px;
+        gap: 5px;
+    }
+
+    .event-img {
+        width: 180px;
+        height: 200px;
+    }
+
+    #event-main > i {
+        background-color: white;
+        margin-top: 100px;
+    }
+
+    .now-page {
+        right: 10px;
+    }
+
+    /* 이벤트 끝 */
+
+    /* 푸터 */
+
+    footer {
+        margin-top: 200px;
+    }
+
+    #footer-nav > ul {
+        width: 95%;
+        gap: 10px;
+    }
+
+    #footer-nav > ul > li {
+        font-size: 12px;
+    }
+
+    #footer {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #footer-right {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    /* 푸터 끝 */
+}
