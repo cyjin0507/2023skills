@@ -641,115 +641,76 @@ footer {
     margin-top: 150px;
 }
 
-#sub1-main {
-    gap: 125px;
-}
-
-#sub1-main > img {
-    width: 15%;
-    height: 760px;
-    margin-top: 40px;
-    display: none;
-}
-
-#sub1-info {
-    width: 100%;
-    margin-top: 40px;
-    flex-direction: column; 
-}
-
-.sub-txt {
-    width: 100%;
-    background-image: url('./resources/image/make/sub1-1.jpg');
-    background-position: center;
+.sub1-info {
+    background-position: bottom;
     background-size: cover;
-    box-shadow: 3px 3px 3px #eaeaea;
-    border: 1px solid #eaeaea;
-    padding: 30px;
-    border-radius: 5px;
+    height: 300px;
+    padding: 40px;
+    gap: 60px;
+    width: 80%;
+    margin: auto;
 }
 
-.sub-txt > div:nth-child(1) {
-    margin-top: 10px;
-    font-size: 15px;
-    line-height: 1.5;
+.info1 {
+    background-image: url('./resources/image/make/sub1-1.jpg');
+    margin-top: 40px;
+}
+
+.info2 {
+    margin-top: 25px;
+    background-image: url('./resources/image/make/sub1-2.jpg');
+}
+
+.highlight {
+    color: var(--sub-color);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info1 > div {
+    margin-top: 60px;
+}
+
+.sub1-info > div > div:not(.highlight) {
     color: white;
-}
-
-.sub-txt > div:nth-child(1) > span {
-    color: var(--sub-color);
-    font-weight: bold;
-}
-
-.sub-txt > div:nth-child(2) {
-    margin-top: 20px;
     font-size: 15px;
 }
 
-.sub-txt > div:nth-child(2) > div:nth-child(1) {
-    color: var(--sub-color);
-    font-weight: bold;
+.info1 > div:nth-child(1),.info1 > div:nth-child(2) {
+    width: 50%;
 }
 
-.sub-txt > div:nth-child(2) > div:nth-child(2) {
+.info1 > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 10px;
+}
+
+.info1 > div:nth-child(1) > div:nth-child(3) {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.info1 > div:nth-child(2) > div:nth-child(2) {
     margin-top: 10px;
     line-height: 2;
-    font-size: 15px;
-    color: white;
 }
 
-.sub-txt > div:nth-child(2) span {
-    font-weight: bold;
-}
-
-.sub-txt > div:nth-child(3) {
+.info2 > div:nth-child(1) > div:nth-child(2) {
     margin-top: 20px;
+    line-height: 2;
 }
 
-.sub-txt > div:nth-child(4) {
-    margin-top: 5px;
+.info2 > div:nth-child(1) > div:nth-child(3) {
+    margin-top: 30px;
+    position: absolute;
 }
 
-.sub-txt > div:nth-child(3),.sub-txt > div:nth-child(4) {
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
+.info2 > div:nth-child(2) {
+    margin-top: 100px;
+    line-height: 2;
 }
 
-.sub2-txt {
-    width: 100%;
-    box-shadow: 3px 3px 3px #eaeaea;
-    border: 1px solid #eaeaea;
-    padding: 50px 30px;
-    border-radius: 5px;
-    background-image: url('./resources/image/make/sub1-2.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.sub2-txt > div:nth-child(1) {
-    font-size: 16px;
-    font-weight: bold;
-    color: var(--sub-color);
-    margin-top: 20px;
-}
-
-.sub2-txt > div:nth-child(2) {
-    margin-top: 20px;
-    line-height: 1.6;
-    font-size: 15px;
-    color: white;
-}
-
-.sub2-txt > div:nth-child(2) > span {
-    font-weight: bold;
-}
-
-.sub2-txt > div:nth-child(3) {
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
+.info2 > div {
+    margin-top: 55px;
 }
 
 /* 서브1 끝 */
