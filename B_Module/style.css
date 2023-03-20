@@ -208,12 +208,33 @@ header nav > ul > a:nth-child(3) li:hover .headerLine {
 }
 
 /* 비주얼 */
-
 #visual {
+    position: relative;
     height: 550px;
-    background-image: url('./resources/image/make/visual.jpg');
+}
+
+.visual {
+    height: 550px;
     background-position: center;
     background-size: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.visual:not(:first-child) {
+    left: 100%;
+}
+
+.visual:nth-child(1) {
+    background-image: url('./resources/image/make/visual.jpg');
+}
+
+.visual:nth-child(2) {
+    background-image: url('./resources/image/01/image_01\ \(11\).jpg');
+}
+
+.visual:nth-child(3) {
+    background-image: url('./resources/image/01/image_01\ \(6\).jpg');
 }
 
 .visual-txt {
@@ -261,6 +282,21 @@ header nav > ul > a:nth-child(3) li:hover .headerLine {
     border-radius: 100%;
     font-size: 15px;
     color: var(--sub-color);
+}
+
+#btn-box {
+    width:180px;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 10px;
+    top: 330px;
+    left: 800px;
+}
+
+#btn-box > img {
+    width: 50px;
+    height: 50px;
 }
 
 /* 비주얼 끝 */
@@ -860,3 +896,27 @@ footer {
 }
 
 /* 테스트 끝 */
+
+/* b */
+
+#mypage {
+    margin-top: 150px;
+}
+
+.table {
+    white-space: nowrap;
+}
+
+th, td {
+    text-align: center;
+}
+
+.orderView {
+    margin-top: 50px;
+}
+
+.btn {
+    font-size: 13px;
+}
+
+/* b 끝 */

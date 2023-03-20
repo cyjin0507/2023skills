@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./resources/bootstrap-5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>2023지방대회-서브</title>
+</head>
+
+<body>
+
+    <!-- 헤더 -->
+
+    <header>
+        <div id="header" class="content between">
+            <a href="./index.html"><img src="./resources/logo.png" alt="img" title="img" id="logo"></a>
+            <div id="navi" class="center">
+                <nav>
+                    <ul class="flex">
+                        <a href="./sub.html">
+                            <li>캠핑장소개
+                                <hr class="headerLine">
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>예약하기
+                                <hr class="headerLine">
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="active">마이페이지
+                                <hr class="headerLine">
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+                <div id="util" class="flex">
+                    <a href="#"><button>로그인</button></a>
+                    <div>
+                        <a href="#"><button>운영관리</button></a>
+                        <div id="tabMenu" class="flex">
+                            <a href="#"><button>예약관리</button></a>
+                            <a href="#"><button>주문관리</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="header-def"></div>
+
+    <!-- 헤더 -->
+
+    <!-- 서브 템플릿 -->
+    <section id="sub-visual">
+        <div class="sub-visual-title">
+            <h2>마이페이지</h2>
+            <div>다양한 체험, 아름다운 자연, 모두의 즐거움! 삼박자의 조화 Skills Camping을 소개합니다.</div>
+        </div>
+    </section>
+
+    <div id="sub-navigation">
+        <div class="flex content">
+            <a href="">
+                <div class="home"><i class="fa-solid fa-house"></i></div>
+            </a>
+            <div>마이페이지</div>
+        </div>
+    </div>
+
+    <!-- 서브 템플릿 -->
+
+    <section id="mypage" class="content">
+        <div class="title">
+            <div style="width: 120px;">주문하기</div>
+            <h2>서브페이지 <span>주문하기</span></h2>
+        </div>
+
+        <table class="table orderView">
+            <thead class="table-success">
+                <tr>
+                    <th>예약날짜</th>
+                    <th>예약자리</th>
+                    <th>예약상태</th>
+                    <th>예약취소버튼</th>
+                    <th>바비큐 주문하기</th>
+                    <th>주문건수</th>
+                    <th>주문내역보기</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="reservation-row">
+                    <td>2023.03.17</td>
+                    <td>A01</td>
+                    <td>예약완료</td>
+                    <td><button class="btn btn-success reservation-cancel-btn">예약취소</button></td>
+                    <td><button class="btn btn-success bbq-order-btn">바비큐 주문하기</button></td>
+                    <td class="order-count">0</td>
+                    <td><button class="btn btn-success order-detail-btn">주문 상세보기</button></td>
+                </tr>
+                <tr class="reservation-row">
+                    <td>2023.03.18</td>
+                    <td>A02</td>
+                    <td>예약중</td>
+                    <td><button class="btn btn-success reservation-cancel-btn">예약취소</button></td>
+                    <td><button class="btn btn-success bbq-order-btn">바비큐 주문하기</button></td>
+                    <td class="order-count">0</td>
+                    <td><button class="btn btn-success order-detail-btn">주문 상세보기</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <!-- 푸터 -->
+
+    <footer>
+        <div id="footer-nav">
+            <ul class="flex">
+                <li>개인정보처리방침</li>
+                <li>홈페이지 이용약관</li>
+                <li>임의에 메뉴1</li>
+                <li>임의에 메뉴2</li>
+                <li>임의에 메뉴3</li>
+            </ul>
+        </div>
+        <div id="footer" class="between">
+            <div id="footer-left">
+                <div>주소 : 충청남도 청양군 대치면 까치내로 123<br>
+                    고객센터 전화번호 : 041-987-1234 <br>
+                    고객센터 운영시간 : 평일 09:00 ~ 18:00, 주말 10:00 ~ 15:00, 점심시간 12:30~13:30
+                </div>
+                <div>Copyright : Copyright(C) Skills Camping All Rights Reserved.</div>
+            </div>
+            <div id="footer-right">
+                <img src="./resources/logo-w.png" alt="img" title="img" id="footer-logo">
+                <div id="icons" class="flex">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 푸터 -->
+
+    <script src="./js/jquery-3.6.4.js"></script>
+    <script src="./js/util/Popup.js"></script>
+    <script src="./js/util/Util.js"></script>
+    <script src="./js/mypage/MyPageBBQModal.js"></script>
+    <script src="./js/mypage/MyPageDetailModal.js"></script>
+    <script src="./js/mypage/MyPageApp.js"></script>
+
+</body>
+
+</html>
