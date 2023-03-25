@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/bootstrap-5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+        <li>바비큐 그릴 대여(도구 및 숯 등 포함) : 1개 10,000원</li>
+        <li>돼지고기 바비쿠 세트 : 1인분 12,000원</li>
+        <li>해산물 바비큐 세트 : 1인분 15,000원</li>
+        <li>음료 : 1병 3,000원</li>
+        <li>주류 : 1병 5,000원</li>
+        <li>과자 세트 : 1세트(3종) 4,000원</li>
+    </ul>
+
+    <table class="table">
+        <tr>
+            <th>돼지고기 바비쿠 세트</th>
+            <td>수량<input type="text">건</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>해산물 바비큐 세트</th>
+            <td>수량<input type="text">건</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>음료</th>
+            <td>수량<input type="text">건</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>주류</th>
+            <td>수량<input type="text">건</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>과자 세트</th>
+            <td>수량<input type="text">건</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+    </table>
+
+        <table class="table mt-5">
+            <tr>
+                <th>바비큐 도구 대여 여부</th>
+                <td><input type="checkbox"></td>
+                <td></td>
+            </tr>
+            <tr class="order-row">
+                <th>돼지고기 바비큐 세트</th>
+                <td><span></span>인분</td>
+                <td>원</td>
+            </tr>
+            <tr class="order-row">
+                <th>해산물 바비큐 세트</th>
+                <td><span></span>인분</td>
+                <td>원</td>
+            </tr>
+            <tr class="order-row">
+                <th>음료</th>
+                <td><span></span>인분</td>
+                <td>원</td>
+            </tr>
+            <tr class="order-row">
+                <th>주류</th>
+                <td><span></span>인분</td>
+                <td>원</td>
+            </tr>
+            <tr class="order-row">
+                <th>과자 세트</th>
+                <td><span></span>인분</td>
+                <td>원</td>
+            </tr>
+        </table>
+        <div id="price"></div>
+        <button class="btn btn-success order-btn">주문완료</button>
+</body>
+</html>
