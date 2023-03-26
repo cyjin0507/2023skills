@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/bootstrap-5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./resources/fontawesome-free-6.2.0-web/css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <div id="header" class="content between">
+                <a href="./index.html"><img src="./resources/logo.png" id="logo" alt="img" title="img"></a>
+                <nav>
+                    <ul class="flex">
+                        <a href="./sub.html">
+                            <li>캠핑장소개</li>
+                            <hr class="header-line">
+                        </a>
+                        <a href="./reservation.html">
+                            <li class="active">예약하기</li>
+                            <hr class="header-line">
+                        </a>
+                        <a href="./mypage.html">
+                            <li>마이페이지</li>
+                            <hr class="header-line">
+                        </a>
+                    </ul>
+                </nav>
+                <div id="util" class="flex">
+                    <div><a href="#">로그인</a></div>
+                    <div><a href="#">운영관리</a>
+                        <div id="sub-menu">
+                            <a href="#">예약관리</a>
+                            <a href="#">주문관리</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="header-def"></div>
+
+        <!-- 비주얼 -->
+
+        <!--  -->
+
+        <div id="sub-visual">
+            <div class="sub-visual-txt">
+                <div>예약하기</div>
+                <div>자연과 인간의 아름다운 조화! Skills 캠핑장입니다.</div>
+            </div>
+        </div>
+
+
+        <!--  -->
+
+        <section class="content" style="margin-top: 150px; width: 1400px;">
+            <div class="between">
+                <div class="title">
+                    <div>예약하기</div>
+                    <h2>서브페이지 <span>예약 현황표</span></h2>
+                </div>
+                <div style="margin-top: 45px;">
+                    예약가능 : <i class="fa-solid fa-tents W"></i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    예약중 : <i class="fa-solid fa-kiwi-bird R"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    예약완료 : <i class="fa-solid fa-person-shelter C"></i>
+                </div>
+            </div>
+
+            <table class="table mt-5 table-striped">
+                <thead class="table-success"></thead>
+                <tbody></tbody>
+            </table>
+        </section>
+        
+        <!-- 푸터 -->
+
+        <footer>
+            <div id="footer-nav" class="content flex">
+                <div>개인정보처리방침</div>
+                <div>홈페이지 이용약관</div>
+                <div>임의의 메뉴1</div>
+                <div>임의의 메뉴2</div>
+                <div>임의의 메뉴3</div>
+            </div>
+            <div id="footer" class="content between">
+                <div id="footer-left">
+                    <div>
+                        * 주소 : 충청남도 청양군 대치면 까치내로 123<br>
+                        * 고객센터 전화번호 : 041-987-1234<br>
+                        * 고객센터 운영시간 : 평일 09:00 ~ 18:00, 주말 10:00 ~ 15:00, 점심시간 12:30~13:30
+                    </div>
+                    <div>
+                        * Copyright : Copyright(C) Skills Camping All Rights Reserved.
+                    </div>
+                </div>
+                <div id="footer-logo">
+                    <img src="./resources/logo-w.png" alt="img" title="img">
+                </div>
+            </div>
+        </footer>
+
+        <!-- 푸터 -->
+    </div>
+
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script src="./js/util/Popup.js"></script>
+    <script src="./js/util/Util.js"></script>
+    <script src="./js/reservation/ReservationPopupControl.js"></script>
+    <script src="./js/reservation/ReservationPopup.js"></script>
+    <script src="./js/reservation/ReservationTableControl.js"></script>
+    <script src="./js/reservation/ReservationApp.js"></script>
+
+</body>
+
+</html>

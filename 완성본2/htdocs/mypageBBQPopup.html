@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/bootstrap-5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>바비큐 서비스 주문 팝업창</title>
+</head>
+
+<body>
+
+    <h3>바비큐 서비스 주문 팝업창</h3>
+
+    <div class="mt-5">
+        <h5>바비큐 서비스 주문메뉴</h5>
+        <ul>
+            <li>- 바비큐 그릴 대여(도구 및 숯 등 포함) : 1개 10,000 원</li>
+            <li>- 돼지고기 바비큐 세트 : 1인분 12,000 원</li>
+            <li>- 해산물 바비큐 세트 : 1인분 15,000 원</li>
+            <li>- 음료 : 1병 3,000 원</li>
+            <li>- 주류 : 1병 5,000 원</li>
+            <li>- 과자 세트 : 1세트(3종) 4,000 원</li>
+        </ul>
+    </div>
+
+    <h5 class="mt-5">주문하기영역</h5>
+    <table class="table table-striped mt-2">
+        <tr>
+            <th>돼지고기 바비큐 세트</th>
+            <td><input type="number">인분</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>해산물 바비큐 세트</th>
+            <td><input type="number">인분</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>음료</th>
+            <td><input type="number">인분</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>주류</th>
+            <td><input type="number">인분</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>과자 세트</th>
+            <td><input type="number">인분</td>
+            <td><button class="btn btn-success add-btn">추가</button></td>
+        </tr>
+        <tr>
+            <th>바비큐 그릴 대여(도구 및 숯 등 포함)</th>
+            <td>대여 <input type="checkbox"></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h5 class="mt-5">주문확인목록</h5>
+    <table class="table table-stripes mt-2">
+        <tr class="table-success">
+            <th>메뉴</th>
+            <th>수량</th>
+            <th>소계금액</th>
+        </tr>
+        <tr class="order-row">
+            <th>돼지고기 바비큐 세트</th>
+            <td><span></span></td>
+            <td></td>
+        </tr>
+        <tr class="order-row">
+            <th>해산물 바비큐 세트</th>
+            <td><span></span></td>
+            <td></td>
+        </tr>
+        <tr class="order-row">
+            <th>음료</th>
+            <td><span></span></td>
+            <td></td>
+        </tr>
+        <tr class="order-row">
+            <th>주류</th>
+            <td><span></span></td>
+            <td></td>
+        </tr>
+        <tr class="order-row">
+            <th>과자 세트</th>
+            <td><span></span></td>
+            <td></td>
+        </tr>
+        <tr class="table-success">
+            <th></th>
+            <th></th>
+            <th>대여금액</th>
+        </tr>
+        <tr>
+            <th>바비큐 그릴 대여(도구 및 숯 등 포함)</th>
+            <td></td>
+            <td class="rent"></td>
+        </tr>
+    </table>
+
+    <button class="btn " style="left: 100%; border: 1px solid green; transform: translateX(-100%); position: relative;">주문합계금액 : <span id="price" style="font-size: 25px;"></span>원</button>
+
+    <button class="order-btn btn btn-success" style="margin: auto; margin-top: 20px; display: block;">주문완료</button>
+
+</body>
+
+</html>

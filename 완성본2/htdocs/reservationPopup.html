@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/bootstrap-5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>예약정보 입력 팝업창</title>
+</head>
+<body>
+
+    <button class="btn btn-primaty">예약정보 입력 팝업창</button>
+
+    <div>
+        <div id="spaceName"></div>
+        <div id="price"></div>
+        <div id="date"></div>
+    </div>
+
+    <div>
+        <input type="text" name="name" placeholder="이름을 입력해주세요.">
+        <input type="text" name="phone" placeholder="휴대폰번호를 입력해주세요.">
+        <input type="text" name="code" placeholder="코드을 입력해주세요." disabled>
+        <button class="btn btn-success code-request-btn">인증번호요청</button>
+    </div>
+
+    <button class="btn btn-success mt-5 reservation-btn">예약하기</button>
+
+    <button class="show-txt mt-5 btn btn-success">예약정보가 정상 등록되었습니다. 관리자 승인 후 예약이 최종 완료됩니다.</button>
+    
+    <style>
+        .show-txt {
+            display: none;
+        }
+    </style>
+</body>
+</html>
